@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">NoteApplication_Savchenko</string>
+    <string name="title_activity_edit_note">EditNoteActivity</string>
 </resources>
