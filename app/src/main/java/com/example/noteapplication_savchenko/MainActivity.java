@@ -49,7 +49,8 @@ public class MainActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
-                // Launch EditNoteActivity for editing when a note is tapped
+                // Launch EditNoteActivity
+                // for editing when a note is tapped
                 Intent intent = new Intent(MainActivity.this, EditNoteActivity.class);
                 intent.putExtra("noteId", position);
                 startActivity(intent);
